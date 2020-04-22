@@ -8,7 +8,7 @@ echo -n 'Updating binaries... '
 
 # Create a local binaries directory
 mkdir -p $HOME/.local/bin
-cd $HOME/.local/bin 2>&1 /dev/null
+cd $HOME/.local/bin > /dev/null 2>&1
 
 # Downloads binary for OpenShift client
 curl -sL https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/openshift-client-linux.tar.gz | tar xz oc
@@ -29,5 +29,5 @@ echo -e '\nexport PATH=$HOME/.local/bin:$PATH' >> $HOME/.bashrc
 source $HOME/.bashrc
 
 # Gives feedback to user and returns
-cd $HOME 2>&1 /dev/null
+cd $HOME > /dev/null 2>&1
 echo 'done!'
