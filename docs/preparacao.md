@@ -8,14 +8,25 @@ Esse material explica como utilizar o ambiente do IBM Cloud (Shell e Lab) para a
 
 0. Acessar o IBM Cloud Shell para termos acesso ao terminal web para os exercícios.
 
+```
 https://shell.cloud.ibm.com
+```
 
 1. Verificar quais clientes estão disponíveis no seu IBM Cloud Shell:
 
 ```
 $ oc version
+```
+
+```
 $ kubectl version --client
+```
+
+```
 $ odo version
+```
+
+```
 $ which oc kubectl odo
 ```
 
@@ -29,14 +40,25 @@ $ source <(curl -sL https://bit.ly/34VpXrD)
 
 ```
 $ oc version
+```
+
+```
 $ kubectl version --client
+```
+
+```
 $ odo version
+```
+
+```
 $ which oc kubectl odo
 ```
 
 4. Acessar o ambiente do IBM Cloud Lab, onde teremos um cluster OpenShift 4 disponível para os exercícios (detalhes e credenciais durante o evento):
 
+```
 https://openshiftworldtourrio.mybluemix.net/
+```
 
 5. Após obter acesso ao ambiente OpenShift, obter as credenciais (contexto) para conexão com o cluster (canto superior direito, em "Copy Login Command) e efetuar o login:
 
