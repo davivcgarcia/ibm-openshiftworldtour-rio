@@ -7,3 +7,4 @@ Esse repositório armazena o conteúdo usado na apresentação da edição do Ri
 ## Roteiro
 
 1. [Preparação](docs/preparacao.md)
+2. [Fluxo padrão Kubernetes](docs/modo-kubernetes.md)
